@@ -18,8 +18,11 @@ const Layout = ({ children }) =>
                 <li className="file"></li>
                 <li className="file"></li>
                 <li className="file"></li>
-                <Header />
-                {children}
+                <div className="z-100">
+                    <Header />
+                    {children}
+                </div>
+
             </ul>
         </div>
     </div>
