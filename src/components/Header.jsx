@@ -6,8 +6,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem} from '@nextui-org/react'
 function Header() {
   return (
     <Navbar>
-        <NavbarContent>
-            <NavbarBrand></NavbarBrand>
+        <NavbarContent className="hidden sm:flex gap-4" justify="end">
             <NavbarItem>Nuestros Servicios</NavbarItem>
             <NavbarItem>Portafolio</NavbarItem>
             <NavbarItem>Sobre nosotros</NavbarItem>

@@ -1,14 +1,17 @@
 import { Button } from "@nextui-org/react";
-import Header from "@/components/Header";
 import Contact from "@/components/Contact";
 import AboutUs from "@/components/AboutUs";
+import Layout from "@/components/Layout";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
-   <>
-    <Header></Header>
-    <AboutUs />
-    <Contact />
-   </>
+    <>
+      <Layout>
+        <Banner />
+        <AboutUs />
+        <Contact />
+      </Layout>
+    </>
   )
 }
