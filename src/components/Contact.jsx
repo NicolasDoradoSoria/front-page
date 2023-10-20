@@ -9,8 +9,8 @@ function Contact() {
     <div className="Presupuesto basis-1/2 py-5 flex flex-col gap-4 justify-center items-end">
     <Image className='w-[150px]' src='https://www.hidalgotitlan.gob.mx/assets/imgs/presupuesto.png' alt='LogoPresupuesto'></Image>
       <h1 className='text-3xl text-end w-3/5 font-black'>Presupuesto sin compromiso</h1>
-      <p className='text-s text-end my-1 w-3/5'>Tanto si estás pensando en la creación de una página web para tu negocio, como si quieres dar un empujon a tu plan de marketing digital, en RENF podemos ayudarte.
-        ¡Envianos tus un mail y nos pondremos en contacto contigo!</p>
+      <p className='text-s text-end my-1 w-3/5'>Tanto si estás pensando en la creación de una página web para tu negocio, como si queres dar un empujon a tu plan de marketing digital, en RENF podemos ayudarte.
+        ¡Envianos tus datos en un mail y nos pondremos en contacto contigo!</p>
     </div>
     <div className="Informacion basis-1/2 flex-col flex justify-center items-center gap-5">
     <div className="Email flex justify-center items-center gap-2">
