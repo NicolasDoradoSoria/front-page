@@ -5,7 +5,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="Container bg-purple-900 h-fit flex flex-wrap justify-center z-100">
+    <div id='Contact' className="Container bg-purple-900 h-fit flex flex-wrap justify-center pt-20 pb-20 z-100">
       <div className="Presupuesto basis-1/2 py-5 px-1 flex flex-col gap-4 m-w-fit z-10">
         <Image className='w-[150px]' src='https://www.hidalgotitlan.gob.mx/assets/imgs/presupuesto.png' alt='LogoPresupuesto'></Image>
         <h1 className='text-3xl font-black'>Presupuesto sin compromiso</h1>

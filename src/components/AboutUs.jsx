@@ -27,7 +27,7 @@ function AboutUs() {
 
 
   return (
-    <div id='AboutUs' className="Contenedor flex flex-col justify-center gap-7 pb-10 pt-10 bg-gradient-to-r from-purple-400 to-purple-900">
+    <div id='AboutUs' className="Contenedor flex flex-col justify-center gap-7 pb-20 pt-20 bg-gradient-to-r from-purple-400 to-purple-900">
       <div className="Contexto flex flex-col justify-center items-center gap-4 z-10">
         <h1 className='text-3xl md:text-5xl font-bold text-center'>Sobre nosotros:</h1>
         <p className='text-md md:text-lg md:w-3/5 p-3 md:text-start text-center font-light'>Somos un equipo de cuatro estudiantes apasionados por la programación y el diseño web.
