@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className='Banner-text z-1'>
                     <h1 className='text-5xl font-bold'>
                     Diseño de paginas web empresariales en Argentina</h1>
-                    <h6 className="text-2xl font-light">
+                    <h6 className="text-2xl font-bold pt-5">
                     Tienda online, aplicaciónes de inventario, y productos personalizados</h6>
                 </div>
                 

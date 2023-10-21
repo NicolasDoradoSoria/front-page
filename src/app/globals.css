@@ -26,8 +26,6 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1;
-        
 }
 
 .bg-bubbles {
@@ -246,6 +244,7 @@ body {
     .Banner-text {
         position: static;
         text-align: center;
+        gap:1rem;
         translate: 0% 0%;
     }
 }

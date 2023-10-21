@@ -1,5 +1,5 @@
 import React from 'react'
-import {Image, Navbar, NavbarBrand, NavbarContent, NavbarItem} from '@nextui-org/react'
+import {Image, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem} from '@nextui-org/react'
 
 // falta poner el logo
 
@@ -11,10 +11,15 @@ function Header() {
           <h1 className='text-3xl font-bold'>RENF DESIGN</h1>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="end">
-            <NavbarItem>Nuestros Servicios</NavbarItem>
-            <NavbarItem>Portafolio</NavbarItem>
-            <NavbarItem>Sobre nosotros</NavbarItem>
-            <NavbarItem>Contacto</NavbarItem>
+            <NavbarItem>
+            <Link href="#OurServices" underline="hover" color='foreground' className='font-semibold'>Nuestros Servicios</Link>
+            </NavbarItem>
+            <NavbarItem>
+            <Link href="#AboutUs" underline="hover" color='foreground' className='font-semibold'>Sobre nosotros</Link>
+            </NavbarItem>
+            <NavbarItem>
+            <Link href="#Contact" underline="hover" color='foreground' className='font-semibold'>Contacto</Link>
+            </NavbarItem>
         </NavbarContent>
     </Navbar>
   )

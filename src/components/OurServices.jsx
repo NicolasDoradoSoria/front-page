@@ -1,28 +1,26 @@
-import { Card } from '@nextui-org/react'
+import { Card, Image } from '@nextui-org/react'
 import React from 'react'
 
 //ordenar las cards, mejorar su contenido
 
 function OurServices() {
   return (
-    <div>
-      <h2>Nuestros Servicios</h2>
-
-      <Card>
-        Páginas amoldadas a tus necesidades, hechas por un equipo profesional
-      </Card>
-
-      <Card>
-        Comunicación sobre la construcción de la página, para dar total atención a sus necesidades
-      </Card>
-
-      <Card>
-        Hecho principalmente en Next.js y React, la tecnología utilizada en Facebook
-      </Card>
-
-      <Card>
-        Diseño responsive, adaptable a todos los dispositivos
-      </Card>
+    <div className='GrillaServicios flex flex-row flex-wrap'>
+    <div className="Grilla1 w-1/5 bg-purple-100">
+      <Image className='' src='https://th.bing.com/th/id/OIG.42ktnmOPOfuXlZw21yhj?pid=ImgGn'></Image>
+    </div>
+    <div className="Grilla2 w-1/5 bg-purple-300">
+    <h1>Hola</h1>
+    </div>
+    <div className="Grilla3 w-1/5 bg-purple-500">
+    <h1>Hola</h1>
+    </div>
+    <div className="Grilla4 w-1/5 bg-purple-700">
+    <h1>Hola</h1>
+    </div>
+    <div className="Grilla5 w-1/5 bg-black">
+    <h1>Hola</h1>
+    </div>
     </div>
     
   )
