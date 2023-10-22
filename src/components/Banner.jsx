@@ -2,10 +2,9 @@ import { Image } from "@nextui-org/react";
 
 const Banner = () => {
     return (
-        <>
-            <div className="Banner-container flex justify-center mt-3 mb-3 h-fit">
-                <Image className="Banner z-0" src="/Banner.png" alt="NextUI hero Image" width={1850} />
-                <div className='Banner-text z-1'>
+            <div className="Banner-container flex justify-center mt-3 mb-3 h-fit relative mt-[-70px]">
+                <Image className="Banner z-0 w-full" src="/Banner2.jpg" alt="NextUI hero Image" />
+                <div className='Banner-text'>
                     <h1 className='text-3xl md:text-5xl font-bold'>
                     Diseño de paginas web empresariales en Argentina</h1>
                     <h6 className="text-2xl font-light">
@@ -13,7 +12,6 @@ const Banner = () => {
                 </div>
                 
             </div>
-        </>
     );
 }
 
