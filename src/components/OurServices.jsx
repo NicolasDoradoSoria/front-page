@@ -5,7 +5,7 @@ import React from 'react'
 
 function OurServices() {
   return (
-    <div id='OurServices' className='GrillaServicios flex flex-row flex-wrap'>
+    <div className='GrillaServicios flex flex-row flex-wrap'>
     <div className="Grilla1 w-1/4 bg-purple-100">
       <img className='' src='https://th.bing.com/th/id/OIG.42ktnmOPOfuXlZw21yhj?pid=ImgGn'></img>
     </div>

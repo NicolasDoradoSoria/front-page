@@ -227,11 +227,9 @@ body {
 .Banner-text {
     position: absolute;
     top: 50%;
-    left: 35%;
-    width: 40%;
+    left: 50%;
     translate: -50% -50%;
 }
-
 
 @media (max-width: 900px){
     .Banner {
@@ -251,6 +249,3 @@ body {
     }
 }
 
-.card {
-    width: 20%;
-}
