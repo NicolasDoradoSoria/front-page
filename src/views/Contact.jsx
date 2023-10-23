@@ -1,11 +1,24 @@
+'use client'
 import { Image } from '@nextui-org/react'
 import React from 'react'
+import { motion } from 'framer-motion'
+import { useInView } from "react-intersection-observer";
 
 //algún día haremos un mail
 
 function Contact() {
+
+  const [ref, inView] = useInView({
+    triggerOnce: false, // La animación se activa una sola vez cuando el componente entra en la vista
+  });
+
   return (
-    <div className="bg-purple-900 h-fit flex flex-wrap justify-center pt-20 pb-20 z-100">
+    <motion.div
+     ref={ref}
+    initial={{ opacity: 0, x: -100 }}
+    animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
+    transition={{ duration: 1 }}
+    whileInView={{ opacity: 1, x: 0 }} id='Contact' className="bg-purple-900 h-fit flex flex-wrap justify-center pt-20 pb-20 z-100">
       <div className="presupuesto basis-1/2 py-5 px-1 flex flex-col gap-4 m-w-fit z-10">
         <Image className='w-[150px]' src='https://www.hidalgotitlan.gob.mx/assets/imgs/presupuesto.png' alt='LogoPresupuesto'></Image>
         <h1 className='text-3xl font-black'>Presupuesto sin compromiso</h1>
@@ -22,7 +35,7 @@ function Contact() {
           <h2 className="text-xl font-semibold">11-2535-4852</h2>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

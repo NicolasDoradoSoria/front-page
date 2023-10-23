@@ -1,7 +1,16 @@
+'use client'
 import { Card, CardHeader, Image } from "@nextui-org/react";
+import Atropos from 'atropos/react';
 
 const Member = ({ member }) => {
     return (
+        <Atropos
+        activeOffset={10}
+        shadowScale={1.00}
+        onEnter={() => console.log('Enter')}
+        onLeave={() => console.log('Leave')}
+        onRotate={(x, y) => console.log('Rotate', x, y)}
+      >
         <Card className='pt-5 pb-10 bg-white mb-9'>
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-center">
                 <Image className='w-[100px]' src={member.img} alt="" />
@@ -28,6 +37,8 @@ const Member = ({ member }) => {
                 </div>
             </div>
         </Card>
+      </Atropos>
+        
     );
 }
 
