@@ -1,4 +1,5 @@
 import { Image } from "@nextui-org/react";
+import '../app/globals.css'
 
 const Banner = () => {
     return (

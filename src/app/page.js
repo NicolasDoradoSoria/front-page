@@ -4,6 +4,8 @@ import AboutUs from "@/views/AboutUs";
 import Contact from "@/views/Contact";
 import Footer from "@/views/Footer";
 import OurServices from "@/views/OurServices";
+import './globals.css'
+import MembersList from "@/views/MembersList";
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <Layout>
         <Banner />
         <AboutUs />
+        <MembersList />
         <OurServices />
         <Contact />
         <Footer />

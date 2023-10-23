@@ -1,5 +1,6 @@
 import React from 'react'
 import {Image, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem} from '@nextui-org/react'
+import '../app/globals.css'
 
 // falta poner el logo
 

@@ -1,4 +1,5 @@
 import Header from "./Header";
+import '../app/globals.css'
 
 const Layout = ({ children }) =>
 (
@@ -18,10 +19,8 @@ const Layout = ({ children }) =>
                 <li className="file"></li>
                 <li className="file"></li>
                 <li className="file"></li>
-                <div className="z-100">
-                    <Header />
+                    {/* <Header /> */}
                     {children}
-                </div>
 
             </ul>
         </div>
