@@ -1,9 +1,9 @@
-import Contact from "@/components/Contact";
-import AboutUs from "@/components/AboutUs";
-import Layout from "@/components/Layout";
 import Banner from "@/components/Banner";
-import Footer from "@/components/Footer";
-import OurServices from "@/components/OurServices";
+import Layout from "@/components/Layout";
+import AboutUs from "@/views/AboutUs";
+import Contact from "@/views/Contact";
+import Footer from "@/views/Footer";
+import OurServices from "@/views/OurServices";
 
 export default function Home() {
   return (

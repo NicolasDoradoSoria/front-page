@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Image } from '@nextui-org/react'
-import './AboutUs.css'
+import '../styles/AboutUs.css'
 
 //Completar las cards con nuestra info
 
