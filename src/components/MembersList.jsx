@@ -28,23 +28,13 @@ const Team = [{
 
 
 const MembersList = () => {
-
-    const [ref, inView] = useInView({
-        triggerOnce: false, // La animación se activa una sola vez cuando el componente entra en la vista
-      });
-
     return (<>
-        <motion.div 
-        ref={ref}
-    initial={{ opacity: 0, x: -100 }}
-    animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
-    transition={{ duration: 1 }}
-    whileInView={{ opacity: 1, x: 0 }}
-    className="bg-gradient-to-r from-purple-400 to-purple-900 w-full flex justify-center gap-5 flex-wrap">
+        <div    
+            className="bg-gradient-to-r from-purple-400 to-purple-900 w-full flex justify-center gap-5 flex-wrap">
             {Team.map((member) => (
                 <Member member={member} key={member.id} />
             ))}
-        </motion.div>
+        </div>
     </>);
 }
 

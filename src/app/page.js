@@ -1,3 +1,5 @@
+'use client'
+
 import Banner from "@/components/Banner";
 import Layout from "@/components/Layout";
 import AboutUs from "@/views/AboutUs";
