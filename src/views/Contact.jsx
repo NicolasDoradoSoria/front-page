@@ -32,7 +32,7 @@ function Contact() {
         </div>
         <div className="flex justify-center items-center gap-2">
           <Image className='w-[35px]' src="http://pluspng.com/img-png/whatsapp-hd-png-logo-do-whatsapp-png-6-1600.png" alt="contacto whatsapp" />
-          <h2 className="text-xl font-semibold">11-2535-4852</h2>
+          <h2 className="text-xl font-semibold">1122543976</h2>
         </div>
       </div>
     </motion.div>

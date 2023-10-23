@@ -7,6 +7,7 @@ import OurServices from "@/views/OurServices";
 import 'atropos/css'
 import './globals.css'
 import MembersList from "@/components/MembersList";
+import { WhatsappButton } from "@/components/WhatsappButton";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <MembersList />
         <OurServices />
         <Contact />
+        <WhatsappButton phoneNumber="1122543976" />
         <Footer />
       </Layout>
     </>
