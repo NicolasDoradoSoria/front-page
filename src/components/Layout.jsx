@@ -19,7 +19,7 @@ const Layout = ({ children }) =>
                 <li className="file"></li>
                 <li className="file"></li>
                 <li className="file"></li>
-                    {/* <Header /> */}
+                    <Header />
                     {children}
 
             </ul>

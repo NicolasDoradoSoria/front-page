@@ -220,16 +220,17 @@ body {
     }
 }
 
-.Banner-container {
-    position: relative;
-}
+
 
 .Banner-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 30%;
+    width: 40%;
     translate: -50% -50%;
 }
+
+
 
 @media (max-width: 900px){
     .Banner {
@@ -244,6 +245,7 @@ body {
     .Banner-text {
         position: static;
         text-align: center;
+        width: 100%;
         gap:1rem;
         translate: 0% 0%;
     }
