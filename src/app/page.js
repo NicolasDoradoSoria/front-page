@@ -18,7 +18,7 @@ export default function Home() {
         <MembersList />
         <OurServices />
         <Contact />
-        <WhatsappButton phoneNumber="1122543976" />
+        <WhatsappButton phoneNumber="+5491122543976" />
         <Footer />
       </Layout>
     </>
