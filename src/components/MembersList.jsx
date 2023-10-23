@@ -1,4 +1,4 @@
-import Member from "./Member";
+import Member from "../views/Member";
 
 const Team = [{
     id: 1,
