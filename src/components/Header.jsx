@@ -8,7 +8,7 @@ import { useInView } from "framer-motion"
 function Header({ color }) {
   return (
     <>
-      <Navbar className={color ? "scrolled-navbar transition-all duration-300" : "transition-all duration-300"} >
+      <Navbar className={color ? "scrolled-navbar transition-all duration-300" : "transition-all duration-300"} isBordered={true}>
         <NavbarBrand className='gap-4' >
           <Image width={40} src='https://th.bing.com/th/id/OIG.42ktnmOPOfuXlZw21yhj?pid=ImgGn' alt='LogoEmail'></Image>
           <h1 className='text-3xl font-bold'>RENF DESIGN</h1>

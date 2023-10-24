@@ -264,9 +264,12 @@ body {
     }
 }
 
-.scrolled-navbar {
-    background: transparent;
-    --tw-backdrop-blur: none
+@media (min-width: 840px) {
+    .scrolled-navbar {
+        background: transparent;
+        --tw-backdrop-blur: none
+        
+    }
 }
 
 .progress-bar {
