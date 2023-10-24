@@ -1,3 +1,4 @@
+import { FormContact } from '@/components/FormContact'
 import Motion from '@/components/Motion'
 import { Image } from '@nextui-org/react'
 import React from 'react'
@@ -10,17 +11,10 @@ function Contact() {
         <Image className='w-[150px]' src='https://www.hidalgotitlan.gob.mx/assets/imgs/presupuesto.png' alt='LogoPresupuesto'></Image>
         <h1 className='text-3xl font-black'>Presupuesto sin compromiso</h1>
         <p className='text-s my-1 md:w-4/5'>Tanto si estás pensando en la creación de una página web para tu negocio, como si queres dar un empujon a tu plan de marketing digital, en RENF podemos ayudarte.
-          ¡Envianos tus datos en un mail y nos pondremos en contacto contigo!</p>
+          ¡Completa el formulario y nos pondremos en contacto contigo!</p>
       </div>
       <div className="m-auto z-10">
-        <div className="flex justify-center items-center gap-2 mb-5">
-          <Image className='w-[35px]' src='https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png' alt='LogoEmail'></Image>
-          <h2 className='text-l font-semibold'>CONTACTO@RENFDESIGN.COM.AR</h2>
-        </div>
-        <div className="flex justify-center items-center gap-2">
-          <Image className='w-[35px]' src="http://pluspng.com/img-png/whatsapp-hd-png-logo-do-whatsapp-png-6-1600.png" alt="contacto whatsapp" />
-          <h2 className="text-xl font-semibold">1122543976</h2>
-        </div>
+        <FormContact/>
       </div>
     </Motion>
   )
