@@ -11,7 +11,7 @@ const Banner = () => {
                         <h1 className='text-3xl md:text-5xl font-bold'>
                             Diseño de paginas web empresariales en Argentina</h1>
                         <h6 className="text-2xl font-light">
-                            Tienda online, aplicaciones de inventario, y productos personalizados</h6>
+                            Tienda online, aplicaciones de inventario y productos personalizados</h6>
                     </div>
 
                 </div>
