@@ -8,24 +8,24 @@ function OurServices() {
   return (
     <Motion idMotion={"OurServices"} style={"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 z-10 font-normal text-md md:text-2xl text-white text-center"}>
       <div className="bg-indigo-100 p-3">
-        <Image className='w-[100%] h-auto' src='/front-page/public/logo.jpeg' alt=''></Image>
+        <Image className='w-[100%] h-auto' src='/Logo.jpeg' alt=''></Image>
       </div>
       <div className="bg-purple-400 pt-20 pb-20 flex-col flex justify-center items-center p-3">
         <h1 className="z-10">Realizamos diseños web/páginas web institucionales, comercios online (E-commerce) y de catálogos de productos</h1>
       </div>
       <div className="bg-pink-300 flex-col flex justify-center gap-5 items-center p-3">
-        <Image className="w-[250px]" src='/front-page/public/server.webp' alt=''></Image>
+        <Image className="w-[250px]" src='/Server.webp' alt=''></Image>
         <h1 className="z-10">Alojamiento y dominios</h1>
       </div>
       <div className="bg-orange-300 flex-col flex justify-center items-center p-3">
-        <Image className="w-[200px]" src='/front-page/public/software.png' alt=''></Image>
+        <Image className="w-[200px]" src='/Software.png' alt=''></Image>
         <h1 className="z-10">Software a medida</h1>
       </div>
       <div className="bg-indigo-500 pt-20 pb-20 flex flex-col items-center justify-center sm:col-span-2 p-3">
         <h1 className="z-10">Trabajaremos contigo codo a codo para desarrollar una estrategia de marketing potente, que amplíe tu alcance y evoque el compromiso de tus consumidores</h1>
       </div>
       <div className="bg-purple-600 pt-20 pb-20 items-center flex flex-col gap-4 sm:col-span-2 p-3">
-        <Image className='w-[150px]' src='/front-page/public/ahorro.png' alt=''></Image>
+        <Image className='w-[150px]' src='/ahorro.png' alt=''></Image>
         <h1 className="z-10">Somos conscientes de que no todas las empresas tienen un amplio presupuesto para el diseño de su sitio web. Por eso, ofrecemos soluciones de diseño web económicas. Nuestros diseños son sencillos y elegantes, con funcionalidades básicas pero esenciales. Ofrecemos una excelente relación calidad-precio sin comprometer la calidad</h1>
       </div>
     </Motion>
