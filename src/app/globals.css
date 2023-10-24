@@ -223,7 +223,7 @@ body {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-  }
+}
 
 @media (max-width: 1000px) {
     .Presupuesto {
@@ -245,7 +245,7 @@ body {
 
 
 
-@media (max-width: 840px){
+@media (max-width: 840px) {
     .Banner {
         display: none;
     }
@@ -259,8 +259,23 @@ body {
         position: static;
         text-align: center;
         width: 100%;
-        gap:1rem;
+        gap: 1rem;
         translate: 0% 0%;
     }
 }
 
+.scrolled-navbar {
+    background: transparent;
+    --tw-backdrop-blur: none
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: red;
+    transform-origin: 0%;
+    z-index: 10;
+}

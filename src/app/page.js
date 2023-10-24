@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <Banner />
+        <Banner/>
         <AboutUs />
         <MembersList />
         <OurServices />
