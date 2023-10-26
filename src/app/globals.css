@@ -207,11 +207,6 @@ body {
     }
 }
 
-.presupuesto {
-    width: 60%;
-    text-align: end;
-    align-items: end;
-}
 
 .whatsappButton {
     position: fixed;
@@ -225,13 +220,6 @@ body {
     cursor: pointer;
   }
 
-@media (max-width: 1000px) {
-    .Presupuesto {
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-}
 
 
 
@@ -262,6 +250,13 @@ body {
         gap:1rem;
         translate: 0% 0%;
     }
+    .contact-div {
+        width: 80%;
+    }
+    .contact-p, .contact-h1 {
+        text-align: center;
+    }
+
 }
 
 @media (min-width: 840px) {
@@ -271,3 +266,4 @@ body {
         
     }
 }
+
