@@ -218,6 +218,7 @@ body {
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    z-index: 50;
   }
 
 

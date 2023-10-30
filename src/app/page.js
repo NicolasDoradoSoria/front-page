@@ -8,7 +8,7 @@ import Footer from "@/views/Footer";
 import OurServices from "@/views/OurServices";
 import 'atropos/css'
 import './globals.css'
-import MembersList from "@/components/MembersList";
+import MembersList from "@/views/MembersList";
 
 export default function Home() {
   return (
