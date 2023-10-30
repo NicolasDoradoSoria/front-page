@@ -3,7 +3,7 @@ import '../app/globals.css'
 
 const Banner = () => {
     return (
-            <div className="w-full mt-[-80px]">
+            <div className="banner-container-div w-full mt-[-80px]">
                 <div className="Banner-container flex justify-center mt-3 mb-3 h-fit relative ">
                     <Image className="Banner z-0" src="/Banner2.jpg" alt="NextUI hero Image" />
                     <div className='Banner-text z-1'>

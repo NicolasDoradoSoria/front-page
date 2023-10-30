@@ -242,7 +242,10 @@ body {
         height: fit-content;
         position: static;
     }
-
+    
+    .banner-container-div {
+        margin-top: 0px;
+    }
     .Banner-text {
         position: static;
         text-align: center;
