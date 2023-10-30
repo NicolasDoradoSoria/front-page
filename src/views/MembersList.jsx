@@ -1,7 +1,6 @@
 'use client'
-import Member from "../views/Member";
-import { motion } from 'framer-motion'
-import { useInView } from "react-intersection-observer";
+import Member from "../components/Member";
+import Motion from "../components/Motion";
 
 const Team = [{
     id: 1,
@@ -30,10 +29,12 @@ const Team = [{
 const MembersList = () => {
     return (<>
         <div    
-            className="bg-gradient-to-r from-purple-400 to-purple-900 w-full flex justify-center gap-5 flex-wrap">
-            {Team.map((member) => (
-                <Member member={member} key={member.id} />
-            ))}
+        className="bg-gradient-to-r from-purple-400 to-purple-900">
+            <Motion idMotion={"Members"} style={"w-full flex justify-center gap-5 flex-wrap"}>
+                {Team.map((member) => (
+                    <Member member={member} key={member.id} />
+                ))}
+            </Motion>
         </div>
     </>);
 }
